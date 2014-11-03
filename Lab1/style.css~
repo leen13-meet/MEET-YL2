@@ -1,0 +1,12 @@
+body {
+    background-color: #d0e4fe;
+}
+
+h1 {
+    color: #CC0033;
+    text-align: center;
+#pic {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
