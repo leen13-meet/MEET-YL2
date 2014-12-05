@@ -1,0 +1,27 @@
+body {
+	background: url(tree_bird.png);
+	background-size: 1350px;
+	background-repeat: no-repeat;
+	margin-left: 2cm;
+}
+
+#srch {
+	margin-left: 600px;
+	margin-top: 0.25cm;
+}
+
+.bar {
+	font-family: TlwgTypewriter;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#pic {
+	position: fixed;
+	left: 400px;
+	bottom: 55px;
+	border-radius: 31px 31px 31px 31px;
+	-moz-border-radius: 31px 31px 31px 31px;
+	-webkit-border-radius: 31px 31px 31px 31px;
+	border: 0px solid #000000;
+}

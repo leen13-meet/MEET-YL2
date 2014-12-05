@@ -1,0 +1,16 @@
+.move{
+	margin-left: 500px;
+}
+
+#submitbutton{
+	margin-left: 590px;
+}
+#space{
+	margin-top:5cm;
+}
+body {
+	background: url(tree_bird.png);
+	background-size: 1350px;
+	background-repeat: no-repeat;
+	margin-left: 1cm;
+}

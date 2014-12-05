@@ -1,15 +1,26 @@
+.move{
+	margin-left: 310px;
+	margin-top: 3cm;
+	font-size: 20px;
+	font-family: Purisa;
+	font-weight: bold;
+	color: #CC0066;
+}
+
+#line{
+	margin-left: 220px;
+	margin-top: 2cm;
+	font-size: 40px;
+	font-family: Purisa;
+	font-weight: 900;
+}
+
+
 body {
 	background: url(tree_bird.png);
 	background-size: 1350px;
 	background-repeat: no-repeat;
 	margin-left: 2cm;
-}
-
-#title {
-	color: #CC0066;
-	text-align: center;
-	font-size: 40px;
-	font-family: Purisa;
 }
 
 #pic {
@@ -32,3 +43,5 @@ body {
 	font-size: 17px;
 	font-weight: bold;
 }
+
+

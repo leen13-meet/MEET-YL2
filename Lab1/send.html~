@@ -1,6 +1,8 @@
 <!doctype html>
 	<html>
+		<title> Question Sent! </title>
 		<head>
+		<link rel="stylesheet" type="text/css" href="contactme.css" />
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,15 +34,31 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="leeen.html">LEEN</a>
+          <a class="navbar-brand bar" href="leeen.html" >HOME</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+               <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="subpage2" style="color:red;">HOME</a></li>
-            <li><a href="http://getbootstrap.com/examples/starter-template/#about">ABOUT ME!</a></li>
-            <li><a href="http://getbootstrap.com/examples/starter-template/#contact">CONTACT ME!</a></li>
+            <li><a href="AboutMe.html" class="bar">ABOUT ME</a></li>
+            <li><a href="contactme.html" class="bar">CONTACT ME</a></li>
+
+
+<li> <form action="search.html" method="GET" id="srch">
+
+<input type=text name=query placeholder="I don't work I'm a princess">
+
+<input type=submit value="Search">
+
+</form>
+ </li>
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-</head>
+		<link rel="stylesheet" type="text/css" href="sendstyle.css"/>
+		<h1> I'll get back to you soon.. <br align="center"> Probably;) </h1>
+		<form id="button" action= "leeen.html">
+			<input type= "submit" value= "Go back to homepage">
+		</form>
+	</body>
+</html>

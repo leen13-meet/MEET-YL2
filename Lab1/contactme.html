@@ -1,8 +1,8 @@
 <!doctype html>
 	<html>
+		<title> Contact Me </title>
 		<head>
-			<link rel="stylesheet" type="text/css" href="style.css">
-
+		<link rel="stylesheet" type="text/css" href="contactmestyle.css" />
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,11 +34,12 @@
           </button>
           <a class="navbar-brand bar" href="leeen.html">HOME</a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+               <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="AboutMe.html" class="bar">ABOUT ME</a></li>
             <li><a href="contactme.html" class="bar">CONTACT ME</a></li>
-<li> <form action="/search.jsp" method="GET" id="srch">
+
+<li> <form action="search.html" method="GET" id="srch">
 
 <input type=text name=query placeholder="I don't work I'm a princess">
 
@@ -46,14 +47,30 @@
 
 </form>
  </li>
-
           </ul>
         </div><!--/.nav-collapse -->
-      </div>
+	<div>
     </nav>
-			<h1 id="title"> Welcome to the website of a future billionaire </h1>
-		
-<img src=a.jpg width="350" height="500" id="pic">
-		
-		</body>
-	</html>
+
+<p id="space"> </p>
+<form class="move">
+<div> Name: <input type="text" placeholder = "Write your name here" ></div>
+<p><div> Email: <input type="text" placeholder = "Enter your e-mail" ></div></p>
+<p><div> Phone Number: <input type="text" placeholder = "Put your phone number" ></div></p>
+<p><div> Question: <input type="text" placeholder = "How can I help you?" ></div></p>
+</form>
+
+<p>
+<form action="send.html" id="submitbutton" >
+	<input type= "submit" Value="Send">
+</form>	
+
+
+
+</body>
+
+
+
+
+
+

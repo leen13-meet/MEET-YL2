@@ -1,6 +1,8 @@
 <!doctype html>
 	<html>
+		<title> Contact Me </title>
 		<head>
+		<link rel="stylesheet" type="text/css" href="contactme.css" />
 <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,12 +46,18 @@
       </div>
     </nav>
 
-<form>
-<div> Name: <input type="text" placeholder = "Write your name here"></div>
-<div> Email: <input type="text" placeholder = "Enter your e-mail"></div>
-<div> Phone Number: <input type="text" placeholder = "Put your phone number"></div>
-<div> Question: <input type="text" placeholder = "How can I help you?"></div>
+<p id="space"> </p>
+<form class="move">
+<div> Name: <input type="text" placeholder = "Write your name here" ></div>
+<p><div> Email: <input type="text" placeholder = "Enter your e-mail" ></div></p>
+<p><div> Phone Number: <input type="text" placeholder = "Put your phone number" ></div></p>
+<p><div> Question: <input type="text" placeholder = "How can I help you?" ></div></p>
 </form>
+
+<p>
+<form id="submitbutton">
+	<input type= "submit" Value="Send">
+</form>	
 
 
 

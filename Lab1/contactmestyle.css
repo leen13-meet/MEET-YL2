@@ -1,0 +1,31 @@
+.move{
+	margin-left: 390px;
+	font-family: TlwgTypewriter;
+	font-weight: bold;
+	color: #CC0066;
+	font-size: 20px;
+}
+
+#submitbutton{
+	margin-left: 590px;
+}
+#space{
+	margin-top:5cm;
+}
+body {
+	background: url(tree_bird.png);
+	background-size: 1350px;
+	background-repeat: no-repeat;
+	margin-left: 2cm;
+}
+
+#srch {
+	margin-left: 600px;
+	margin-top: 0.25cm;
+}
+
+.bar {
+	font-family: TlwgTypewriter;
+	font-size: 17px;
+	font-weight: bold;
+}

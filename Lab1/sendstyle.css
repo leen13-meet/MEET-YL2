@@ -1,0 +1,32 @@
+h1 {
+	font-size: 40px;
+	position: absolute;
+	left: 320px;
+	top: 150px;
+	font-family: TlwgTypewriter;
+	font-weight: bold;
+	color: #CC0066;
+}
+
+#button {
+	position: absolute;
+	left: 525px;
+	top: 290px;
+}
+body {
+	background: url(tree_bird.png);
+	background-size: 1350px;
+	background-repeat: no-repeat;
+	margin-left: 2cm;
+}
+
+#srch {
+	margin-left: 600px;
+	margin-top: 0.25cm;
+}
+
+.bar {
+	font-family: TlwgTypewriter;
+	font-size: 17px;
+	font-weight: bold;
+}
