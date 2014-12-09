@@ -6,6 +6,6 @@ from models import Poll, Answer
 # Remember each function/view the first argument/input has to be request
 
 def wazap(request):
-	return HttpResponse("ITT WORKSSS!!")
-
+	return render(request, 'polls/detail.html',{})
+	
 
